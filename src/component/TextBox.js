@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 
 export default function TextBox(props) {
@@ -27,6 +27,7 @@ export default function TextBox(props) {
        settext(event.target.value);
 
     }
+ 
 
 
     
@@ -48,6 +49,7 @@ export default function TextBox(props) {
 <button type="button" className="btn btn-primary mx-3" onClick={locase}>Convert to LowerCase</button>
 
 <button type="button" className="btn btn-primary" onClick={clear} >Clear Text</button>
+
 
 
 <br />
